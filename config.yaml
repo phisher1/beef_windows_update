@@ -1,0 +1,15 @@
+#
+# Copyright (c) 2006-2015 Wade Alcorn - wade@bindshell.net
+# Browser Exploitation Framework (BeEF) - http://beefproject.com
+# See the file 'doc/COPYING' for copying permission
+#
+beef:
+    module:
+        windows_update:
+            enable: true
+            category: "Social Engineering"
+            name: "Windows Update"
+            description: "Places a Windows Update image at the bottom of the screen. Allows you to define a URL to a payload to be downloaded upon clicking."
+            authors: ["phisher1"]
+            target:
+                user_notify: ['ALL']
